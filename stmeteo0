@@ -164,12 +164,12 @@ stmeteo:Perak2 a stmeteo:StasiunMeteorologi;
 stmeteo:ds0 a qb:DataSet;
     qb:structure stmeteo:DSD0 .
  
-stmeteo:obs00 a qb:Observation;
-	qb:dataSet  stmeteo:ds0;
-    stmeteo:refTahun "2013"^^xsd:gYear;
+stmeteo:ob00 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
 	stmeteo:refStasiun stmeteo:Juanda;
 	stmeteo:refBulan "01"^^xsd:gMonth;
-	stmeteo:ArahAngin 270;
+	stmeteo:ArahAngin B;
 	stmeteo:KecepatanAngin 8.7;
 	stmeteo:ArahAnginMax 280;
 	stmeteo:KecepatanAnginMax 22;
@@ -181,13 +181,13 @@ stmeteo:obs00 a qb:Observation;
 	stmeteo:TekananUdara 1009.3;
 	stmeteo:Teperatur 27.6;
 	stmeteo:PenyinaranMatahari 48.8 .
-	
-stmeteo:obs01 a qb:Observation;
-	qb:dataSet  stmeteo:ds0;
-    stmeteo:refTahun "2013"^^xsd:gYear;
+
+stmeteo:ob01 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
 	stmeteo:refStasiun stmeteo:Juanda;
 	stmeteo:refBulan "02"^^xsd:gMonth;
-	stmeteo:ArahAngin 270;
+	stmeteo:ArahAngin B;
 	stmeteo:KecepatanAngin 7.1;
 	stmeteo:ArahAnginMax 240;
 	stmeteo:KecepatanAnginMax 20;
@@ -199,13 +199,13 @@ stmeteo:obs01 a qb:Observation;
 	stmeteo:TekananUdara 1008.8;
 	stmeteo:Teperatur 27.8;
 	stmeteo:PenyinaranMatahari 47.1 .
-	
-stmeteo:obs02 a qb:Observation;
-	qb:dataSet  stmeteo:ds0;
-    stmeteo:refTahun "2013"^^xsd:gYear;
+
+stmeteo:ob02 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
 	stmeteo:refStasiun stmeteo:Juanda;
 	stmeteo:refBulan "03"^^xsd:gMonth;
-	stmeteo:ArahAngin 90;
+	stmeteo:ArahAngin T;
 	stmeteo:KecepatanAngin 6.9;
 	stmeteo:ArahAnginMax 290;
 	stmeteo:KecepatanAnginMax 20;
@@ -217,13 +217,13 @@ stmeteo:obs02 a qb:Observation;
 	stmeteo:TekananUdara 1010.1;
 	stmeteo:Teperatur 27.8;
 	stmeteo:PenyinaranMatahari 67.6 .
-	
-stmeteo:obs03 a qb:Observation;
-	qb:dataSet  stmeteo:ds0;
-    stmeteo:refTahun "2013"^^xsd:gYear;
+
+stmeteo:ob03 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
 	stmeteo:refStasiun stmeteo:Juanda;
 	stmeteo:refBulan "04"^^xsd:gMonth;
-	stmeteo:ArahAngin 90;
+	stmeteo:ArahAngin T;
 	stmeteo:KecepatanAngin 6;
 	stmeteo:ArahAnginMax 50;
 	stmeteo:KecepatanAnginMax 14;
@@ -234,14 +234,14 @@ stmeteo:obs03 a qb:Observation;
 	stmeteo:Kelembapan 82;
 	stmeteo:TekananUdara 1009.5;
 	stmeteo:Teperatur 28.3;
-	stmeteo:PenyinaranMatahari 54.0 .
-	
-stmeteo:obs04 a qb:Observation;
-	qb:dataSet  stmeteo:ds0;
-    stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:PenyinaranMatahari 54 .
+
+stmeteo:ob04 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
 	stmeteo:refStasiun stmeteo:Juanda;
 	stmeteo:refBulan "05"^^xsd:gMonth;
-	stmeteo:ArahAngin 90;
+	stmeteo:ArahAngin T;
 	stmeteo:KecepatanAngin 6;
 	stmeteo:ArahAnginMax 70;
 	stmeteo:KecepatanAnginMax 15;
@@ -252,14 +252,14 @@ stmeteo:obs04 a qb:Observation;
 	stmeteo:Kelembapan 83;
 	stmeteo:TekananUdara 1010;
 	stmeteo:Teperatur 28.1;
-	stmeteo:PenyinaranMatahari 52.0 .
-	
-stmeteo:obs05 a qb:Observation;
-	qb:dataSet  stmeteo:ds0;
-    stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:PenyinaranMatahari 52 .
+
+stmeteo:ob05 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
 	stmeteo:refStasiun stmeteo:Juanda;
 	stmeteo:refBulan "06"^^xsd:gMonth;
-	stmeteo:ArahAngin 90;
+	stmeteo:ArahAngin T;
 	stmeteo:KecepatanAngin 6.2;
 	stmeteo:ArahAnginMax 40;
 	stmeteo:KecepatanAnginMax 20;
@@ -270,14 +270,14 @@ stmeteo:obs05 a qb:Observation;
 	stmeteo:Kelembapan 85;
 	stmeteo:TekananUdara 1009.1;
 	stmeteo:Teperatur 27;
-	stmeteo:PenyinaranMatahari 44.0 .
-	
-stmeteo:obs06 a qb:Observation;
-	qb:dataSet  stmeteo:ds0;
-    stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:PenyinaranMatahari 44 .
+
+stmeteo:ob06 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
 	stmeteo:refStasiun stmeteo:Juanda;
 	stmeteo:refBulan "07"^^xsd:gMonth;
-	stmeteo:ArahAngin 90;
+	stmeteo:ArahAngin T;
 	stmeteo:KecepatanAngin 7.5;
 	stmeteo:ArahAnginMax 110;
 	stmeteo:KecepatanAnginMax 20;
@@ -289,13 +289,13 @@ stmeteo:obs06 a qb:Observation;
 	stmeteo:TekananUdara 1010.5;
 	stmeteo:Teperatur 26.3;
 	stmeteo:PenyinaranMatahari 57.7 .
-	
-stmeteo:obs07 a qb:Observation;
-	qb:dataSet  stmeteo:ds0;
-    stmeteo:refTahun "2013"^^xsd:gYear;
+
+stmeteo:ob07 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
 	stmeteo:refStasiun stmeteo:Juanda;
 	stmeteo:refBulan "08"^^xsd:gMonth;
-	stmeteo:ArahAngin 90;
+	stmeteo:ArahAngin T;
 	stmeteo:KecepatanAngin 7.6;
 	stmeteo:ArahAnginMax 100;
 	stmeteo:KecepatanAnginMax 18;
@@ -307,13 +307,13 @@ stmeteo:obs07 a qb:Observation;
 	stmeteo:TekananUdara 1012.2;
 	stmeteo:Teperatur 26.3;
 	stmeteo:PenyinaranMatahari 94.6 .
-	
-stmeteo:obs08 a qb:Observation;
-	qb:dataSet  stmeteo:ds0;
-    stmeteo:refTahun "2013"^^xsd:gYear;
+
+stmeteo:ob08 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
 	stmeteo:refStasiun stmeteo:Juanda;
 	stmeteo:refBulan "09"^^xsd:gMonth;
-	stmeteo:ArahAngin 90;
+	stmeteo:ArahAngin T;
 	stmeteo:KecepatanAngin 7.6;
 	stmeteo:ArahAnginMax 90;
 	stmeteo:KecepatanAnginMax 20;
@@ -325,13 +325,13 @@ stmeteo:obs08 a qb:Observation;
 	stmeteo:TekananUdara 1012.1;
 	stmeteo:Teperatur 27.7;
 	stmeteo:PenyinaranMatahari 92.5 .
-	
-stmeteo:obs09 a qb:Observation;
-	qb:dataSet  stmeteo:ds0;
-    stmeteo:refTahun "2013"^^xsd:gYear;
+
+stmeteo:ob09 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
 	stmeteo:refStasiun stmeteo:Juanda;
 	stmeteo:refBulan "10"^^xsd:gMonth;
-	stmeteo:ArahAngin 90;
+	stmeteo:ArahAngin T;
 	stmeteo:KecepatanAngin 7;
 	stmeteo:ArahAnginMax 110;
 	stmeteo:KecepatanAnginMax 15;
@@ -343,13 +343,13 @@ stmeteo:obs09 a qb:Observation;
 	stmeteo:TekananUdara 1012.1;
 	stmeteo:Teperatur 29.4;
 	stmeteo:PenyinaranMatahari 91.3 .
-	
-stmeteo:obs10 a qb:Observation;
-	qb:dataSet  stmeteo:ds0;
-    stmeteo:refTahun "2013"^^xsd:gYear;
+
+stmeteo:ob10 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
 	stmeteo:refStasiun stmeteo:Juanda;
 	stmeteo:refBulan "11"^^xsd:gMonth;
-	stmeteo:ArahAngin 90;
+	stmeteo:ArahAngin T;
 	stmeteo:KecepatanAngin 7;
 	stmeteo:ArahAnginMax 250;
 	stmeteo:KecepatanAnginMax 19;
@@ -361,13 +361,13 @@ stmeteo:obs10 a qb:Observation;
 	stmeteo:TekananUdara 1009.5;
 	stmeteo:Teperatur 28.7;
 	stmeteo:PenyinaranMatahari 40.6 .
-	
-stmeteo:obs11 a qb:Observation;
-	qb:dataSet  stmeteo:ds0;
-    stmeteo:refTahun "2013"^^xsd:gYear;
+
+stmeteo:ob11 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
 	stmeteo:refStasiun stmeteo:Juanda;
 	stmeteo:refBulan "12"^^xsd:gMonth;
-	stmeteo:ArahAngin 270;
+	stmeteo:ArahAngin B;
 	stmeteo:KecepatanAngin 7;
 	stmeteo:ArahAnginMax 280;
 	stmeteo:KecepatanAnginMax 28;
@@ -379,6 +379,1083 @@ stmeteo:obs11 a qb:Observation;
 	stmeteo:TekananUdara 1008.9;
 	stmeteo:Teperatur 27.6;
 	stmeteo:PenyinaranMatahari 51.2 .
-	
 
-	
+stmeteo:ob12 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "01"^^xsd:gMonth;
+	stmeteo:ArahAngin B;
+	stmeteo:KecepatanAngin 7;
+	stmeteo:ArahAnginMax 200;
+	stmeteo:KecepatanAnginMax 26;
+	stmeteo:JamAnginMax "18:50"^^xsd:time;
+	stmeteo:TanggalAnginMax "18"^^xsd:gDate;
+	stmeteo:HariHujan 26;
+	stmeteo:CurahHujan 648.7;
+	stmeteo:Kelembapan 82;
+	stmeteo:TekananUdara 1009.9;
+	stmeteo:Teperatur 27.7;
+	stmeteo:PenyinaranMatahari 4 .
+
+stmeteo:ob13 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "02"^^xsd:gMonth;
+	stmeteo:ArahAngin B;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 130;
+	stmeteo:KecepatanAnginMax 32;
+	stmeteo:JamAnginMax "14:20"^^xsd:time;
+	stmeteo:TanggalAnginMax "23"^^xsd:gDate;
+	stmeteo:HariHujan 20;
+	stmeteo:CurahHujan 197.3;
+	stmeteo:Kelembapan 80;
+	stmeteo:TekananUdara 1009.4;
+	stmeteo:Teperatur 28.3;
+	stmeteo:PenyinaranMatahari 49 .
+
+stmeteo:ob14 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "03"^^xsd:gMonth;
+	stmeteo:ArahAngin B;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 20;
+	stmeteo:KecepatanAnginMax 28;
+	stmeteo:JamAnginMax "12:50"^^xsd:time;
+	stmeteo:TanggalAnginMax "13"^^xsd:gDate;
+	stmeteo:HariHujan 20;
+	stmeteo:CurahHujan 197.3;
+	stmeteo:Kelembapan 81;
+	stmeteo:TekananUdara 1009.4;
+	stmeteo:Teperatur 28.4;
+	stmeteo:PenyinaranMatahari 49 .
+
+stmeteo:ob15 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "04"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 90;
+	stmeteo:KecepatanAnginMax 21;
+	stmeteo:JamAnginMax "11:40"^^xsd:time;
+	stmeteo:TanggalAnginMax "26"^^xsd:gDate;
+	stmeteo:HariHujan 12;
+	stmeteo:CurahHujan 141;
+	stmeteo:Kelembapan 80;
+	stmeteo:TekananUdara 1010.1;
+	stmeteo:Teperatur 28.8;
+	stmeteo:PenyinaranMatahari 45 .
+
+stmeteo:ob16 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "05"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 90;
+	stmeteo:KecepatanAnginMax 27;
+	stmeteo:JamAnginMax "13:30"^^xsd:time;
+	stmeteo:TanggalAnginMax "21"^^xsd:gDate;
+	stmeteo:HariHujan 16;
+	stmeteo:CurahHujan 179;
+	stmeteo:Kelembapan 80;
+	stmeteo:TekananUdara 1010.5;
+	stmeteo:Teperatur 28.8;
+	stmeteo:PenyinaranMatahari 54 .
+
+stmeteo:ob17 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "06"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 90;
+	stmeteo:KecepatanAnginMax 21;
+	stmeteo:JamAnginMax "02:40"^^xsd:time;
+	stmeteo:TanggalAnginMax "13"^^xsd:gDate;
+	stmeteo:HariHujan 17;
+	stmeteo:CurahHujan 235;
+	stmeteo:Kelembapan 80;
+	stmeteo:TekananUdara 1009.7;
+	stmeteo:Teperatur 28.4;
+	stmeteo:PenyinaranMatahari 47 .
+
+stmeteo:ob18 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "07"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 7;
+	stmeteo:ArahAnginMax 90;
+	stmeteo:KecepatanAnginMax 27;
+	stmeteo:JamAnginMax "14:15"^^xsd:time;
+	stmeteo:TanggalAnginMax "23"^^xsd:gDate;
+	stmeteo:HariHujan 9;
+	stmeteo:CurahHujan 91;
+	stmeteo:Kelembapan 75;
+	stmeteo:TekananUdara 1011.1;
+	stmeteo:Teperatur 27.8;
+	stmeteo:PenyinaranMatahari 66 .
+
+stmeteo:ob19 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "08"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 8;
+	stmeteo:ArahAnginMax 60;
+	stmeteo:KecepatanAnginMax 24;
+	stmeteo:JamAnginMax "12:20"^^xsd:time;
+	stmeteo:TanggalAnginMax "23"^^xsd:gDate;
+	stmeteo:HariHujan 0;
+	stmeteo:CurahHujan 0;
+	stmeteo:Kelembapan 67;
+	stmeteo:TekananUdara 1012.7;
+	stmeteo:Teperatur 28.2;
+	stmeteo:PenyinaranMatahari 96 .
+
+stmeteo:ob20 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "09"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 8;
+	stmeteo:ArahAnginMax 70;
+	stmeteo:KecepatanAnginMax 22;
+	stmeteo:JamAnginMax "13:50"^^xsd:time;
+	stmeteo:TanggalAnginMax "23"^^xsd:gDate;
+	stmeteo:HariHujan 0;
+	stmeteo:CurahHujan 0;
+	stmeteo:Kelembapan 64;
+	stmeteo:TekananUdara 1012.6;
+	stmeteo:Teperatur 28.2;
+	stmeteo:PenyinaranMatahari 100 .
+
+stmeteo:ob21 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "10"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 7;
+	stmeteo:ArahAnginMax 70;
+	stmeteo:KecepatanAnginMax 22;
+	stmeteo:JamAnginMax "09:30"^^xsd:time;
+	stmeteo:TanggalAnginMax "16"^^xsd:gDate;
+	stmeteo:HariHujan 5;
+	stmeteo:CurahHujan 6;
+	stmeteo:Kelembapan 64;
+	stmeteo:TekananUdara 1010.1;
+	stmeteo:Teperatur 30.2;
+	stmeteo:PenyinaranMatahari 93 .
+
+stmeteo:ob22 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "11"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 30;
+	stmeteo:KecepatanAnginMax 24;
+	stmeteo:JamAnginMax "15:30"^^xsd:time;
+	stmeteo:TanggalAnginMax "15"^^xsd:gDate;
+	stmeteo:HariHujan 13;
+	stmeteo:CurahHujan 80;
+	stmeteo:Kelembapan 73;
+	stmeteo:TekananUdara 1010.1;
+	stmeteo:Teperatur 29.2;
+	stmeteo:PenyinaranMatahari 61 .
+
+stmeteo:ob23 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "12"^^xsd:gMonth;
+	stmeteo:ArahAngin B;
+	stmeteo:KecepatanAngin 7;
+	stmeteo:ArahAnginMax 90;
+	stmeteo:KecepatanAnginMax 25;
+	stmeteo:JamAnginMax cvb0"^^xsd:time;
+	stmeteo:TanggalAnginMax "1"^^xsd:gDate;
+	stmeteo:HariHujan 26;
+	stmeteo:CurahHujan 371;
+	stmeteo:Kelembapan 81;
+	stmeteo:TekananUdara 1009.6;
+	stmeteo:Teperatur 27.8;
+	stmeteo:PenyinaranMatahari 43 .
+
+stmeteo:ob24 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "01"^^xsd:gMonth;
+	stmeteo:ArahAngin BL;
+	stmeteo:KecepatanAngin 7;
+	stmeteo:ArahAnginMax 320;
+	stmeteo:KecepatanAnginMax 22;
+	stmeteo:JamAnginMax "13:40"^^xsd:time;
+	stmeteo:TanggalAnginMax "11"^^xsd:gDate;
+	stmeteo:HariHujan 26;
+	stmeteo:CurahHujan 477.7;
+	stmeteo:Kelembapan 81;
+	stmeteo:TekananUdara 1009.1;
+	stmeteo:Teperatur 28.1;
+	stmeteo:PenyinaranMatahari 63 .
+
+stmeteo:ob25 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "02"^^xsd:gMonth;
+	stmeteo:ArahAngin BL;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 20;
+	stmeteo:KecepatanAnginMax 22;
+	stmeteo:JamAnginMax "14:40"^^xsd:time;
+	stmeteo:TanggalAnginMax "5"^^xsd:gDate;
+	stmeteo:HariHujan 17;
+	stmeteo:CurahHujan 276.6;
+	stmeteo:Kelembapan 79;
+	stmeteo:TekananUdara 1008.5;
+	stmeteo:Teperatur 28.6;
+	stmeteo:PenyinaranMatahari 62 .
+
+stmeteo:ob26 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "03"^^xsd:gMonth;
+	stmeteo:ArahAngin BL;
+	stmeteo:KecepatanAngin 5;
+	stmeteo:ArahAnginMax 150;
+	stmeteo:KecepatanAnginMax 30;
+	stmeteo:JamAnginMax "15:40"^^xsd:time;
+	stmeteo:TanggalAnginMax "14"^^xsd:gDate;
+	stmeteo:HariHujan 24;
+	stmeteo:CurahHujan 322.4;
+	stmeteo:Kelembapan 79;
+	stmeteo:TekananUdara 1009.9;
+	stmeteo:Teperatur 28.7;
+	stmeteo:PenyinaranMatahari 76 .
+
+stmeteo:ob27 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "04"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 350;
+	stmeteo:KecepatanAnginMax 21;
+	stmeteo:JamAnginMax "17:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "18"^^xsd:gDate;
+	stmeteo:HariHujan 18;
+	stmeteo:CurahHujan 189.4;
+	stmeteo:Kelembapan 79;
+	stmeteo:TekananUdara 1009.2;
+	stmeteo:Teperatur 29;
+	stmeteo:PenyinaranMatahari 59 .
+
+stmeteo:ob28 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "05"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 5;
+	stmeteo:ArahAnginMax 140;
+	stmeteo:KecepatanAnginMax 19;
+	stmeteo:JamAnginMax "16:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "8"^^xsd:gDate;
+	stmeteo:HariHujan 17;
+	stmeteo:CurahHujan 159.4;
+	stmeteo:Kelembapan 79;
+	stmeteo:TekananUdara 1009.6;
+	stmeteo:Teperatur 29;
+	stmeteo:PenyinaranMatahari 65 .
+
+stmeteo:ob29 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "06"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 5;
+	stmeteo:ArahAnginMax 120;
+	stmeteo:KecepatanAnginMax 21;
+	stmeteo:JamAnginMax "03:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "14"^^xsd:gDate;
+	stmeteo:HariHujan 14;
+	stmeteo:CurahHujan 240.4;
+	stmeteo:Kelembapan 80;
+	stmeteo:TekananUdara 1008.7;
+	stmeteo:Teperatur 28.5;
+	stmeteo:PenyinaranMatahari 63 .
+
+stmeteo:ob30 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "07"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 7;
+	stmeteo:ArahAnginMax 100;
+	stmeteo:KecepatanAnginMax 25;
+	stmeteo:JamAnginMax "02:10"^^xsd:time;
+	stmeteo:TanggalAnginMax "24"^^xsd:gDate;
+	stmeteo:HariHujan 8;
+	stmeteo:CurahHujan 103;
+	stmeteo:Kelembapan 75;
+	stmeteo:TekananUdara 1010.3;
+	stmeteo:Teperatur 27.9;
+	stmeteo:PenyinaranMatahari 71 .
+
+stmeteo:ob31 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "08"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 8;
+	stmeteo:ArahAnginMax 110;
+	stmeteo:KecepatanAnginMax 22;
+	stmeteo:JamAnginMax "13:40"^^xsd:time;
+	stmeteo:TanggalAnginMax "26"^^xsd:gDate;
+	stmeteo:HariHujan 0;
+	stmeteo:CurahHujan 0;
+	stmeteo:Kelembapan 68;
+	stmeteo:TekananUdara 1011.3;
+	stmeteo:Teperatur 28.4;
+	stmeteo:PenyinaranMatahari 93 .
+
+stmeteo:ob32 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "09"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 8;
+	stmeteo:ArahAnginMax 120;
+	stmeteo:KecepatanAnginMax 22;
+	stmeteo:JamAnginMax "13:50"^^xsd:time;
+	stmeteo:TanggalAnginMax "1"^^xsd:gDate;
+	stmeteo:HariHujan 0;
+	stmeteo:CurahHujan 0;
+	stmeteo:Kelembapan 64;
+	stmeteo:TekananUdara 1010.9;
+	stmeteo:Teperatur 29;
+	stmeteo:PenyinaranMatahari 96 .
+
+stmeteo:ob33 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "10"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 7;
+	stmeteo:ArahAnginMax 120;
+	stmeteo:KecepatanAnginMax 22;
+	stmeteo:JamAnginMax "10:20"^^xsd:time;
+	stmeteo:TanggalAnginMax "17"^^xsd:gDate;
+	stmeteo:HariHujan 3;
+	stmeteo:CurahHujan 4.6;
+	stmeteo:Kelembapan 64;
+	stmeteo:TekananUdara 1010.9;
+	stmeteo:Teperatur 30.2;
+	stmeteo:PenyinaranMatahari 94 .
+
+stmeteo:ob34 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "11"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 90;
+	stmeteo:KecepatanAnginMax 24;
+	stmeteo:JamAnginMax "15:40"^^xsd:time;
+	stmeteo:TanggalAnginMax "15"^^xsd:gDate;
+	stmeteo:HariHujan 20;
+	stmeteo:CurahHujan 90.3;
+	stmeteo:Kelembapan 72;
+	stmeteo:TekananUdara 1008.6;
+	stmeteo:Teperatur 29.3;
+	stmeteo:PenyinaranMatahari 69 .
+
+stmeteo:ob35 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2013"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "12"^^xsd:gMonth;
+	stmeteo:ArahAngin BL;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 340;
+	stmeteo:KecepatanAnginMax 21;
+	stmeteo:JamAnginMax "12:40"^^xsd:time;
+	stmeteo:TanggalAnginMax "8"^^xsd:gDate;
+	stmeteo:HariHujan 24;
+	stmeteo:CurahHujan 229.8;
+	stmeteo:Kelembapan 80;
+	stmeteo:TekananUdara 1008.5;
+	stmeteo:Teperatur 28.1;
+	stmeteo:PenyinaranMatahari 53 .
+
+stmeteo:ob36 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Juanda;
+	stmeteo:refBulan "01"^^xsd:gMonth;
+	stmeteo:ArahAngin B;
+	stmeteo:KecepatanAngin 8.8;
+	stmeteo:ArahAnginMax 300;
+	stmeteo:KecepatanAnginMax 22;
+	stmeteo:JamAnginMax "15:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "17"^^xsd:gDate;
+	stmeteo:HariHujan 24;
+	stmeteo:CurahHujan 259;
+	stmeteo:Kelembapan 81;
+	stmeteo:TekananUdara 1010.3;
+	stmeteo:Teperatur 27.2;
+	stmeteo:PenyinaranMatahari 42 .
+
+stmeteo:ob37 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Juanda;
+	stmeteo:refBulan "02"^^xsd:gMonth;
+	stmeteo:ArahAngin B;
+	stmeteo:KecepatanAngin 8.5;
+	stmeteo:ArahAnginMax 250;
+	stmeteo:KecepatanAnginMax 22;
+	stmeteo:JamAnginMax "00:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "7"^^xsd:gDate;
+	stmeteo:HariHujan 22;
+	stmeteo:CurahHujan 247;
+	stmeteo:Kelembapan 82;
+	stmeteo:TekananUdara 1009.8;
+	stmeteo:Teperatur 27.2;
+	stmeteo:PenyinaranMatahari 40 .
+
+stmeteo:ob38 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Juanda;
+	stmeteo:refBulan "03"^^xsd:gMonth;
+	stmeteo:ArahAngin B;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 190;
+	stmeteo:KecepatanAnginMax 18;
+	stmeteo:JamAnginMax "14:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "28"^^xsd:gDate;
+	stmeteo:HariHujan 22;
+	stmeteo:CurahHujan 455;
+	stmeteo:Kelembapan 81;
+	stmeteo:TekananUdara 1010.8;
+	stmeteo:Teperatur 27.9;
+	stmeteo:PenyinaranMatahari 74 .
+
+stmeteo:ob39 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Juanda;
+	stmeteo:refBulan "04"^^xsd:gMonth;
+	stmeteo:ArahAngin B;
+	stmeteo:KecepatanAngin 5.8;
+	stmeteo:ArahAnginMax 280;
+	stmeteo:KecepatanAnginMax 16;
+	stmeteo:JamAnginMax "17:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "8"^^xsd:gDate;
+	stmeteo:HariHujan 22;
+	stmeteo:CurahHujan 273;
+	stmeteo:Kelembapan 81;
+	stmeteo:TekananUdara 1010.4;
+	stmeteo:Teperatur 28.3;
+	stmeteo:PenyinaranMatahari 54 .
+
+stmeteo:ob40 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Juanda;
+	stmeteo:refBulan "05"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 7;
+	stmeteo:ArahAnginMax 90;
+	stmeteo:KecepatanAnginMax 17;
+	stmeteo:JamAnginMax "17:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "6"^^xsd:gDate;
+	stmeteo:HariHujan 16;
+	stmeteo:CurahHujan 105;
+	stmeteo:Kelembapan 77;
+	stmeteo:TekananUdara 1010.6;
+	stmeteo:Teperatur 29.1;
+	stmeteo:PenyinaranMatahari 86 .
+
+stmeteo:ob41 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Juanda;
+	stmeteo:refBulan "06"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 7;
+	stmeteo:ArahAnginMax 140;
+	stmeteo:KecepatanAnginMax 17;
+	stmeteo:JamAnginMax "00:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "16"^^xsd:gDate;
+	stmeteo:HariHujan 9;
+	stmeteo:CurahHujan 202;
+	stmeteo:Kelembapan 77;
+	stmeteo:TekananUdara 1010.3;
+	stmeteo:Teperatur 28.5;
+	stmeteo:PenyinaranMatahari 89 .
+
+stmeteo:ob42 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Juanda;
+	stmeteo:refBulan "07"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 7;
+	stmeteo:ArahAnginMax 150;
+	stmeteo:KecepatanAnginMax 16;
+	stmeteo:JamAnginMax "02:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "25"^^xsd:gDate;
+	stmeteo:HariHujan 6;
+	stmeteo:CurahHujan 48;
+	stmeteo:Kelembapan 76;
+	stmeteo:TekananUdara 1012.1;
+	stmeteo:Teperatur 27.5;
+	stmeteo:PenyinaranMatahari 90 .
+
+stmeteo:ob43 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Juanda;
+	stmeteo:refBulan "08"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 8.2;
+	stmeteo:ArahAnginMax 100;
+	stmeteo:KecepatanAnginMax 19;
+	stmeteo:JamAnginMax "08:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "5"^^xsd:gDate;
+	stmeteo:HariHujan 0;
+	stmeteo:CurahHujan 0;
+	stmeteo:Kelembapan 72;
+	stmeteo:TekananUdara 1012.7;
+	stmeteo:Teperatur 27.2;
+	stmeteo:PenyinaranMatahari 99 .
+
+stmeteo:ob44 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Juanda;
+	stmeteo:refBulan "09"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 7.6;
+	stmeteo:ArahAnginMax 100;
+	stmeteo:KecepatanAnginMax 15;
+	stmeteo:JamAnginMax "00:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "12"^^xsd:gDate;
+	stmeteo:HariHujan 0;
+	stmeteo:CurahHujan 0;
+	stmeteo:Kelembapan 66;
+	stmeteo:TekananUdara 1013.3;
+	stmeteo:Teperatur 26.4;
+	stmeteo:PenyinaranMatahari 67 .
+
+stmeteo:ob45 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Juanda;
+	stmeteo:refBulan "10"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 8;
+	stmeteo:ArahAnginMax 100;
+	stmeteo:KecepatanAnginMax 18;
+	stmeteo:JamAnginMax "14:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "17"^^xsd:gDate;
+	stmeteo:HariHujan 0;
+	stmeteo:CurahHujan 0;
+	stmeteo:Kelembapan 65;
+	stmeteo:TekananUdara 1012.3;
+	stmeteo:Teperatur 29;
+	stmeteo:PenyinaranMatahari 98 .
+
+stmeteo:ob46 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Juanda;
+	stmeteo:refBulan "11"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 6.9;
+	stmeteo:ArahAnginMax 110;
+	stmeteo:KecepatanAnginMax 16;
+	stmeteo:JamAnginMax " 00:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "4"^^xsd:gDate;
+	stmeteo:HariHujan 11;
+	stmeteo:CurahHujan 72;
+	stmeteo:Kelembapan 69;
+	stmeteo:TekananUdara 1010.6;
+	stmeteo:Teperatur 29.9;
+	stmeteo:PenyinaranMatahari 81 .
+
+stmeteo:ob47 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Juanda;
+	stmeteo:refBulan "12"^^xsd:gMonth;
+	stmeteo:ArahAngin B;
+	stmeteo:KecepatanAngin 6.9;
+	stmeteo:ArahAnginMax 310;
+	stmeteo:KecepatanAnginMax 18;
+	stmeteo:JamAnginMax " 00:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "9"^^xsd:gDate;
+	stmeteo:HariHujan 22;
+	stmeteo:CurahHujan 320;
+	stmeteo:Kelembapan 81;
+	stmeteo:TekananUdara 1009.4;
+	stmeteo:Teperatur 28;
+	stmeteo:PenyinaranMatahari 33 .
+
+stmeteo:ob48 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "01"^^xsd:gMonth;
+	stmeteo:ArahAngin B;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 310;
+	stmeteo:KecepatanAnginMax 25;
+	stmeteo:JamAnginMax "12:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "30"^^xsd:gDate;
+	stmeteo:HariHujan 29;
+	stmeteo:CurahHujan 302;
+	stmeteo:Kelembapan 81;
+	stmeteo:TekananUdara 1009.8;
+	stmeteo:Teperatur 27.4;
+	stmeteo:PenyinaranMatahari 44 .
+
+stmeteo:ob49 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "02"^^xsd:gMonth;
+	stmeteo:ArahAngin B;
+	stmeteo:KecepatanAngin 7;
+	stmeteo:ArahAnginMax 310;
+	stmeteo:KecepatanAnginMax 31;
+	stmeteo:JamAnginMax "02:24"^^xsd:time;
+	stmeteo:TanggalAnginMax "11"^^xsd:gDate;
+	stmeteo:HariHujan 23;
+	stmeteo:CurahHujan 266;
+	stmeteo:Kelembapan 83;
+	stmeteo:TekananUdara 1009.4;
+	stmeteo:Teperatur 27.5;
+	stmeteo:PenyinaranMatahari 60 .
+
+stmeteo:ob50 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "03"^^xsd:gMonth;
+	stmeteo:ArahAngin B;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 150;
+	stmeteo:KecepatanAnginMax 30;
+	stmeteo:JamAnginMax "02:24"^^xsd:time;
+	stmeteo:TanggalAnginMax "13"^^xsd:gDate;
+	stmeteo:HariHujan 19;
+	stmeteo:CurahHujan 251;
+	stmeteo:Kelembapan 79;
+	stmeteo:TekananUdara 1010;
+	stmeteo:Teperatur 28.6;
+	stmeteo:PenyinaranMatahari 83 .
+
+stmeteo:ob51 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "04"^^xsd:gMonth;
+	stmeteo:ArahAngin BL;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 40;
+	stmeteo:KecepatanAnginMax 31;
+	stmeteo:JamAnginMax "04:48"^^xsd:time;
+	stmeteo:TanggalAnginMax "7"^^xsd:gDate;
+	stmeteo:HariHujan 19;
+	stmeteo:CurahHujan 253;
+	stmeteo:Kelembapan 79;
+	stmeteo:TekananUdara 1009.6;
+	stmeteo:Teperatur 28.8;
+	stmeteo:PenyinaranMatahari 66 .
+
+stmeteo:ob52 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "05"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 7;
+	stmeteo:ArahAnginMax 160;
+	stmeteo:KecepatanAnginMax 22;
+	stmeteo:JamAnginMax "07:12"^^xsd:time;
+	stmeteo:TanggalAnginMax "4"^^xsd:gDate;
+	stmeteo:HariHujan 13;
+	stmeteo:CurahHujan 51;
+	stmeteo:Kelembapan 75;
+	stmeteo:TekananUdara 1009.9;
+	stmeteo:Teperatur 29.6;
+	stmeteo:PenyinaranMatahari 75 .
+
+stmeteo:ob53 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "06"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 60;
+	stmeteo:KecepatanAnginMax 21;
+	stmeteo:JamAnginMax "07:12"^^xsd:time;
+	stmeteo:TanggalAnginMax "24"^^xsd:gDate;
+	stmeteo:HariHujan 13;
+	stmeteo:CurahHujan 68;
+	stmeteo:Kelembapan 74;
+	stmeteo:TekananUdara 1009.4;
+	stmeteo:Teperatur 29.3;
+	stmeteo:PenyinaranMatahari 84 .
+
+stmeteo:ob54 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "07"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 80;
+	stmeteo:KecepatanAnginMax 21;
+	stmeteo:JamAnginMax "07:12"^^xsd:time;
+	stmeteo:TanggalAnginMax "28"^^xsd:gDate;
+	stmeteo:HariHujan 9;
+	stmeteo:CurahHujan 6;
+	stmeteo:Kelembapan 70;
+	stmeteo:TekananUdara 1011;
+	stmeteo:Teperatur 28.6;
+	stmeteo:PenyinaranMatahari 88 .
+
+stmeteo:ob55 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "08"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 8;
+	stmeteo:ArahAnginMax 60;
+	stmeteo:KecepatanAnginMax 27;
+	stmeteo:JamAnginMax "12:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "4"^^xsd:gDate;
+	stmeteo:HariHujan 0;
+	stmeteo:CurahHujan 0;
+	stmeteo:Kelembapan 67;
+	stmeteo:TekananUdara 1011.6;
+	stmeteo:Teperatur 28.4;
+	stmeteo:PenyinaranMatahari 98 .
+
+stmeteo:ob56 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "09"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 8;
+	stmeteo:ArahAnginMax 90;
+	stmeteo:KecepatanAnginMax 25;
+	stmeteo:JamAnginMax "00:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "23"^^xsd:gDate;
+	stmeteo:HariHujan 0;
+	stmeteo:CurahHujan 0;
+	stmeteo:Kelembapan 62;
+	stmeteo:TekananUdara 1011.8;
+	stmeteo:Teperatur 27.7;
+	stmeteo:PenyinaranMatahari 98 .
+
+stmeteo:ob57 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "10"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 9;
+	stmeteo:ArahAnginMax 50;
+	stmeteo:KecepatanAnginMax 25;
+	stmeteo:JamAnginMax "07:12"^^xsd:time;
+	stmeteo:TanggalAnginMax "20"^^xsd:gDate;
+	stmeteo:HariHujan 1;
+	stmeteo:CurahHujan 8;
+	stmeteo:Kelembapan 61;
+	stmeteo:TekananUdara 1010.6;
+	stmeteo:Teperatur 30.1;
+	stmeteo:PenyinaranMatahari 94 .
+
+stmeteo:ob58 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "11"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 50;
+	stmeteo:KecepatanAnginMax 25;
+	stmeteo:JamAnginMax "04:48"^^xsd:time;
+	stmeteo:TanggalAnginMax "24"^^xsd:gDate;
+	stmeteo:HariHujan 13;
+	stmeteo:CurahHujan 70;
+	stmeteo:Kelembapan 69;
+	stmeteo:TekananUdara 1009.4;
+	stmeteo:Teperatur 30;
+	stmeteo:PenyinaranMatahari 72 .
+
+stmeteo:ob59 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak1;
+	stmeteo:refBulan "12"^^xsd:gMonth;
+	stmeteo:ArahAngin B;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 180;
+	stmeteo:KecepatanAnginMax 25;
+	stmeteo:JamAnginMax "02:24"^^xsd:time;
+	stmeteo:TanggalAnginMax "9"^^xsd:gDate;
+	stmeteo:HariHujan 24;
+	stmeteo:CurahHujan 337;
+	stmeteo:Kelembapan 80;
+	stmeteo:TekananUdara 1008.8;
+	stmeteo:Teperatur 28.1;
+	stmeteo:PenyinaranMatahari 42 .
+
+stmeteo:ob60 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "01"^^xsd:gMonth;
+	stmeteo:ArahAngin BL;
+	stmeteo:KecepatanAngin 7;
+	stmeteo:ArahAnginMax 320;
+	stmeteo:KecepatanAnginMax 21;
+	stmeteo:JamAnginMax "16:40"^^xsd:time;
+	stmeteo:TanggalAnginMax "22"^^xsd:gDate;
+	stmeteo:HariHujan 26;
+	stmeteo:CurahHujan 272.1;
+	stmeteo:Kelembapan 80;
+	stmeteo:TekananUdara 1009.8;
+	stmeteo:Teperatur 27.6;
+	stmeteo:PenyinaranMatahari 51 .
+
+stmeteo:ob61 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "02"^^xsd:gMonth;
+	stmeteo:ArahAngin BL;
+	stmeteo:KecepatanAngin 5;
+	stmeteo:ArahAnginMax 300;
+	stmeteo:KecepatanAnginMax 34;
+	stmeteo:JamAnginMax "15:20"^^xsd:time;
+	stmeteo:TanggalAnginMax "11"^^xsd:gDate;
+	stmeteo:HariHujan 23;
+	stmeteo:CurahHujan 335.6;
+	stmeteo:Kelembapan 80;
+	stmeteo:TekananUdara 1009.4;
+	stmeteo:Teperatur 27.9;
+	stmeteo:PenyinaranMatahari 67 .
+
+stmeteo:ob62 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "03"^^xsd:gMonth;
+	stmeteo:ArahAngin U;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 150;
+	stmeteo:KecepatanAnginMax 24;
+	stmeteo:JamAnginMax "15:20"^^xsd:time;
+	stmeteo:TanggalAnginMax "13"^^xsd:gDate;
+	stmeteo:HariHujan 12;
+	stmeteo:CurahHujan 186;
+	stmeteo:Kelembapan 77;
+	stmeteo:TekananUdara 1010;
+	stmeteo:Teperatur 29;
+	stmeteo:PenyinaranMatahari 85 .
+
+stmeteo:ob63 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "04"^^xsd:gMonth;
+	stmeteo:ArahAngin U;
+	stmeteo:KecepatanAngin 5;
+	stmeteo:ArahAnginMax 70;
+	stmeteo:KecepatanAnginMax 16;
+	stmeteo:JamAnginMax "13:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "2"^^xsd:gDate;
+	stmeteo:HariHujan 17;
+	stmeteo:CurahHujan 245.9;
+	stmeteo:Kelembapan 78;
+	stmeteo:TekananUdara 1009.7;
+	stmeteo:Teperatur 29.1;
+	stmeteo:PenyinaranMatahari 73 .
+
+stmeteo:ob64 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "05"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 7;
+	stmeteo:ArahAnginMax 340;
+	stmeteo:KecepatanAnginMax 24;
+	stmeteo:JamAnginMax "13:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "15"^^xsd:gDate;
+	stmeteo:HariHujan 11;
+	stmeteo:CurahHujan 54.8;
+	stmeteo:Kelembapan 75;
+	stmeteo:TekananUdara 1009.9;
+	stmeteo:Teperatur 30;
+	stmeteo:PenyinaranMatahari 82 .
+
+stmeteo:ob65 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "06"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 7;
+	stmeteo:ArahAnginMax 130;
+	stmeteo:KecepatanAnginMax 19;
+	stmeteo:JamAnginMax "14:10"^^xsd:time;
+	stmeteo:TanggalAnginMax "26"^^xsd:gDate;
+	stmeteo:HariHujan 9;
+	stmeteo:CurahHujan 47.7;
+	stmeteo:Kelembapan 74;
+	stmeteo:TekananUdara 1009.5;
+	stmeteo:Teperatur 29.7;
+	stmeteo:PenyinaranMatahari 88 .
+
+stmeteo:ob66 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "07"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 8;
+	stmeteo:ArahAnginMax 140;
+	stmeteo:KecepatanAnginMax 19;
+	stmeteo:JamAnginMax "12:00"^^xsd:time;
+	stmeteo:TanggalAnginMax "6"^^xsd:gDate;
+	stmeteo:HariHujan 7;
+	stmeteo:CurahHujan 4;
+	stmeteo:Kelembapan 72;
+	stmeteo:TekananUdara 1011.1;
+	stmeteo:Teperatur 29;
+	stmeteo:PenyinaranMatahari 88 .
+
+stmeteo:ob67 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "08"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 9;
+	stmeteo:ArahAnginMax 120;
+	stmeteo:KecepatanAnginMax 25;
+	stmeteo:JamAnginMax "12:20"^^xsd:time;
+	stmeteo:TanggalAnginMax "5"^^xsd:gDate;
+	stmeteo:HariHujan 1;
+	stmeteo:CurahHujan 4.8;
+	stmeteo:Kelembapan 69;
+	stmeteo:TekananUdara 1011.7;
+	stmeteo:Teperatur 28.7;
+	stmeteo:PenyinaranMatahari 97 .
+
+stmeteo:ob68 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "09"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 9;
+	stmeteo:ArahAnginMax 110;
+	stmeteo:KecepatanAnginMax 22;
+	stmeteo:JamAnginMax "14:10"^^xsd:time;
+	stmeteo:TanggalAnginMax "7"^^xsd:gDate;
+	stmeteo:HariHujan 0;
+	stmeteo:CurahHujan 0;
+	stmeteo:Kelembapan 64;
+	stmeteo:TekananUdara 1011.8;
+	stmeteo:Teperatur 28.8;
+	stmeteo:PenyinaranMatahari 99 .
+
+stmeteo:ob69 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "10"^^xsd:gMonth;
+	stmeteo:ArahAngin T;
+	stmeteo:KecepatanAngin 9;
+	stmeteo:ArahAnginMax 110;
+	stmeteo:KecepatanAnginMax 24;
+	stmeteo:JamAnginMax "13:10"^^xsd:time;
+	stmeteo:TanggalAnginMax "19"^^xsd:gDate;
+	stmeteo:HariHujan 1;
+	stmeteo:CurahHujan 0.4;
+	stmeteo:Kelembapan 63;
+	stmeteo:TekananUdara 1010.7;
+	stmeteo:Teperatur 30.2;
+	stmeteo:PenyinaranMatahari 98 .
+
+stmeteo:ob70 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "11"^^xsd:gMonth;
+	stmeteo:ArahAngin U;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 10;
+	stmeteo:KecepatanAnginMax 22;
+	stmeteo:JamAnginMax "16:50"^^xsd:time;
+	stmeteo:TanggalAnginMax "13"^^xsd:gDate;
+	stmeteo:HariHujan 15;
+	stmeteo:CurahHujan 69;
+	stmeteo:Kelembapan 68;
+	stmeteo:TekananUdara 1009.4;
+	stmeteo:Teperatur 30.3;
+	stmeteo:PenyinaranMatahari 79 .
+
+stmeteo:ob71 a qb:Observation;
+	qb:dataSet  stmeteo:ds1 ;
+	stmeteo:refTahun "2014"^^xsd:gYear;
+	stmeteo:refStasiun stmeteo:Perak2;
+	stmeteo:refBulan "12"^^xsd:gMonth;
+	stmeteo:ArahAngin S;
+	stmeteo:KecepatanAngin 6;
+	stmeteo:ArahAnginMax 330;
+	stmeteo:KecepatanAnginMax 21;
+	stmeteo:JamAnginMax "11:20"^^xsd:time;
+	stmeteo:TanggalAnginMax "13"^^xsd:gDate;
+	stmeteo:HariHujan 23;
+	stmeteo:CurahHujan 284.7;
+	stmeteo:Kelembapan 79;
+	stmeteo:TekananUdara 1008.8;
+	stmeteo:Teperatur 28.6;
+	stmeteo:PenyinaranMatahari 51 .
